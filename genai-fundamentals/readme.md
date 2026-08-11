@@ -13,10 +13,6 @@ Course structure
 - `07-sampling/` — Decoding algorithms and output control
 - `08-model-apis/` — Practical API usage, streaming, function-calling, and error handling
 
-How instructors should use this folder
-1. Assign reading + short videos before each session.
-2. Use the exercises as 60–120 minute lab assignments.
-3. Cap each unit with a mini-project demonstrating integration with other units.
 
 Next steps
 - See each subfolder for its full README, exercises, and starter code.
