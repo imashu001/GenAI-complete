@@ -4,7 +4,6 @@ As you design module 07: Model Context Protocol (MCP) for your Generative AI cur
 
 Created by Anthropic and rapidly becoming an industry-standard open protocol, MCP solves the $N \times M$ integration problem (where every AI model needs a custom connector for every data source or tool). Instead, MCP establishes an open standard where clients (like LLM applications, IDEs, or chat interfaces) connect to servers (local files, databases, APIs, git repos) via a unified protocol.
 
-### Core Concepts to Teach
 ## 1. The Analogy: USB-C for AI Applications
 Before MCP, every AI developer had to write custom tool wrappers, parse specific tool-use schemas for OpenAI, Gemini, or Anthropic, and hardcode database connectors.
 
