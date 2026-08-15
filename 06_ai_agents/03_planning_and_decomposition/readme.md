@@ -20,3 +20,6 @@ When a single linear plan isn't enough, Tree-of-Thought empowers the agent to ex
 **Evaluation:** A heuristic or self-evaluation judge scores each branch (e.g., Promising, Dead-end, Optimal).
 
 **Backtracking:** If a branch fails or hits a contradiction, the agent prunes that branch, backtracks to a previous node, and explores an alternative path (akin to human System 2 slow thinking).
+
+## 2. Production Code Implementation (03_planning_and_decomposition/plan_and_solve_orchestrator.py)
+Here is a clean, production-grade Python script demonstrating a Plan-and-Solve agent that decouples strategic planning from step-by-step execution:
